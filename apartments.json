@@ -6,14 +6,14 @@
       "rooms": 2,
       "sm": 65,
       "price": 3000,
-      "address": {"area": "", "street": "", "house_number": "56", "floor": 3, "enter": ""},
+      "address": {"city": "תל-אביב יפו", "area": "הצפון הישן", "street": "פנקס", "house_number": "56", "floor": 3, "enter": ""},
       "images":[
         {"id": 1, "path": "http://thumb101.shutterstock.com/display_pic_with_logo/58408/191081627/stock-photo-modern-apartment-buildings-in-new-westminster-british-columbia-canada-191081627.jpg", "active": true},
         {"id": 2, "path": "http://thumb1.shutterstock.com/display_pic_with_logo/348181/189023420/stock-photo-house-building-and-city-construction-concept-evening-outdoor-urban-view-of-modern-real-estate-homes-189023420.jpg", "active": false},
         {"id": 3, "path": "http://thumb7.shutterstock.com/display_pic_with_logo/52488/126936059/stock-photo-modern-apartment-balcony-at-sunset-126936059.jpg", "active": false}
       ],
       "publish": "",
-      "enter_date": "",
+      "enter_date": "1 ביוני 2015",
       "specs": {"parking": true, "pets": true, "handicap": false, "elevator": false, "conditioner": true, "parquet": true, "balcony": true},
       "schedule": [
         {"date": "", "start_time": "", "end_time": ""},
@@ -28,14 +28,146 @@
       "rooms": 2,
       "sm": 65,
       "price": 3000,
-      "address": {"area": "", "street": "", "house_number": "56", "floor": 3, "enter": ""},
+      "address": {"city": "תל-אביב יפו", "area": "הצפון הישן", "street": "פנקס", "house_number": "56", "floor": 3, "enter": ""},
       "images":[
         {"id": 1, "path": "http://thumb101.shutterstock.com/display_pic_with_logo/58408/191081627/stock-photo-modern-apartment-buildings-in-new-westminster-british-columbia-canada-191081627.jpg", "active": true},
         {"id": 2, "path": "http://thumb1.shutterstock.com/display_pic_with_logo/348181/189023420/stock-photo-house-building-and-city-construction-concept-evening-outdoor-urban-view-of-modern-real-estate-homes-189023420.jpg", "active": false},
         {"id": 3, "path": "http://thumb7.shutterstock.com/display_pic_with_logo/52488/126936059/stock-photo-modern-apartment-balcony-at-sunset-126936059.jpg", "active": false}
       ],
       "publish": "",
-      "enter_date": "",
+      "enter_date": "1 ביוני 2015",
+      "specs": {"parking": true, "pets": true, "handicap": false, "elevator": false, "conditioner": true, "parquet": true, "balcony": true},
+      "schedule": [
+        {"date": "", "start_time": "", "end_time": ""},
+        {"date": "", "start_time": "", "end_time": ""},
+        {"date": "", "start_time": "", "end_time": ""}
+      ]
+
+    },
+    {
+      "id": 2,
+      "title": "דירה חדשה שזה עתה התפנתה",
+      "rooms": 2,
+      "sm": 65,
+      "price": 3000,
+      "address": {"city": "תל-אביב יפו", "area": "הצפון הישן", "street": "פנקס", "house_number": "56", "floor": 3, "enter": ""},
+      "images":[
+        {"id": 1, "path": "http://thumb101.shutterstock.com/display_pic_with_logo/58408/191081627/stock-photo-modern-apartment-buildings-in-new-westminster-british-columbia-canada-191081627.jpg", "active": true},
+        {"id": 2, "path": "http://thumb1.shutterstock.com/display_pic_with_logo/348181/189023420/stock-photo-house-building-and-city-construction-concept-evening-outdoor-urban-view-of-modern-real-estate-homes-189023420.jpg", "active": false},
+        {"id": 3, "path": "http://thumb7.shutterstock.com/display_pic_with_logo/52488/126936059/stock-photo-modern-apartment-balcony-at-sunset-126936059.jpg", "active": false}
+      ],
+      "publish": "",
+      "enter_date": "1 ביוני 2015",
+      "specs": {"parking": true, "pets": true, "handicap": false, "elevator": false, "conditioner": true, "parquet": true, "balcony": true},
+      "schedule": [
+        {"date": "", "start_time": "", "end_time": ""},
+        {"date": "", "start_time": "", "end_time": ""},
+        {"date": "", "start_time": "", "end_time": ""}
+      ]
+
+    },
+    {
+      "id": 2,
+      "title": "דירה חדשה שזה עתה התפנתה",
+      "rooms": 2,
+      "sm": 65,
+      "price": 3000,
+      "address": {"city": "תל-אביב יפו", "area": "הצפון הישן", "street": "פנקס", "house_number": "56", "floor": 3, "enter": ""},
+      "images":[
+        {"id": 1, "path": "http://thumb101.shutterstock.com/display_pic_with_logo/58408/191081627/stock-photo-modern-apartment-buildings-in-new-westminster-british-columbia-canada-191081627.jpg", "active": true},
+        {"id": 2, "path": "http://thumb1.shutterstock.com/display_pic_with_logo/348181/189023420/stock-photo-house-building-and-city-construction-concept-evening-outdoor-urban-view-of-modern-real-estate-homes-189023420.jpg", "active": false},
+        {"id": 3, "path": "http://thumb7.shutterstock.com/display_pic_with_logo/52488/126936059/stock-photo-modern-apartment-balcony-at-sunset-126936059.jpg", "active": false}
+      ],
+      "publish": "",
+      "enter_date": "1 ביוני 2015",
+      "specs": {"parking": true, "pets": true, "handicap": false, "elevator": false, "conditioner": true, "parquet": true, "balcony": true},
+      "schedule": [
+        {"date": "", "start_time": "", "end_time": ""},
+        {"date": "", "start_time": "", "end_time": ""},
+        {"date": "", "start_time": "", "end_time": ""}
+      ]
+
+    },
+    {
+      "id": 2,
+      "title": "דירה חדשה שזה עתה התפנתה",
+      "rooms": 2,
+      "sm": 65,
+      "price": 3000,
+      "address": {"city": "תל-אביב יפו", "area": "הצפון הישן", "street": "פנקס", "house_number": "56", "floor": 3, "enter": ""},
+      "images":[
+        {"id": 1, "path": "http://thumb101.shutterstock.com/display_pic_with_logo/58408/191081627/stock-photo-modern-apartment-buildings-in-new-westminster-british-columbia-canada-191081627.jpg", "active": true},
+        {"id": 2, "path": "http://thumb1.shutterstock.com/display_pic_with_logo/348181/189023420/stock-photo-house-building-and-city-construction-concept-evening-outdoor-urban-view-of-modern-real-estate-homes-189023420.jpg", "active": false},
+        {"id": 3, "path": "http://thumb7.shutterstock.com/display_pic_with_logo/52488/126936059/stock-photo-modern-apartment-balcony-at-sunset-126936059.jpg", "active": false}
+      ],
+      "publish": "",
+      "enter_date": "1 ביוני 2015",
+      "specs": {"parking": true, "pets": true, "handicap": false, "elevator": false, "conditioner": true, "parquet": true, "balcony": true},
+      "schedule": [
+        {"date": "", "start_time": "", "end_time": ""},
+        {"date": "", "start_time": "", "end_time": ""},
+        {"date": "", "start_time": "", "end_time": ""}
+      ]
+
+    },
+    {
+      "id": 2,
+      "title": "דירה חדשה שזה עתה התפנתה",
+      "rooms": 2,
+      "sm": 65,
+      "price": 3000,
+      "address": {"city": "תל-אביב יפו", "area": "הצפון הישן", "street": "פנקס", "house_number": "56", "floor": 3, "enter": ""},
+      "images":[
+        {"id": 1, "path": "http://thumb101.shutterstock.com/display_pic_with_logo/58408/191081627/stock-photo-modern-apartment-buildings-in-new-westminster-british-columbia-canada-191081627.jpg", "active": true},
+        {"id": 2, "path": "http://thumb1.shutterstock.com/display_pic_with_logo/348181/189023420/stock-photo-house-building-and-city-construction-concept-evening-outdoor-urban-view-of-modern-real-estate-homes-189023420.jpg", "active": false},
+        {"id": 3, "path": "http://thumb7.shutterstock.com/display_pic_with_logo/52488/126936059/stock-photo-modern-apartment-balcony-at-sunset-126936059.jpg", "active": false}
+      ],
+      "publish": "",
+      "enter_date": "1 ביוני 2015",
+      "specs": {"parking": true, "pets": true, "handicap": false, "elevator": false, "conditioner": true, "parquet": true, "balcony": true},
+      "schedule": [
+        {"date": "", "start_time": "", "end_time": ""},
+        {"date": "", "start_time": "", "end_time": ""},
+        {"date": "", "start_time": "", "end_time": ""}
+      ]
+
+    },
+    {
+      "id": 2,
+      "title": "דירה חדשה שזה עתה התפנתה",
+      "rooms": 2,
+      "sm": 65,
+      "price": 3000,
+      "address": {"city": "תל-אביב יפו", "area": "הצפון הישן", "street": "פנקס", "house_number": "56", "floor": 3, "enter": ""},
+      "images":[
+        {"id": 1, "path": "http://thumb101.shutterstock.com/display_pic_with_logo/58408/191081627/stock-photo-modern-apartment-buildings-in-new-westminster-british-columbia-canada-191081627.jpg", "active": true},
+        {"id": 2, "path": "http://thumb1.shutterstock.com/display_pic_with_logo/348181/189023420/stock-photo-house-building-and-city-construction-concept-evening-outdoor-urban-view-of-modern-real-estate-homes-189023420.jpg", "active": false},
+        {"id": 3, "path": "http://thumb7.shutterstock.com/display_pic_with_logo/52488/126936059/stock-photo-modern-apartment-balcony-at-sunset-126936059.jpg", "active": false}
+      ],
+      "publish": "",
+      "enter_date": "1 ביוני 2015",
+      "specs": {"parking": true, "pets": true, "handicap": false, "elevator": false, "conditioner": true, "parquet": true, "balcony": true},
+      "schedule": [
+        {"date": "", "start_time": "", "end_time": ""},
+        {"date": "", "start_time": "", "end_time": ""},
+        {"date": "", "start_time": "", "end_time": ""}
+      ]
+
+    },
+    {
+      "id": 2,
+      "title": "דירה חדשה שזה עתה התפנתה",
+      "rooms": 2,
+      "sm": 65,
+      "price": 3000,
+      "address": {"city": "תל-אביב יפו", "area": "הצפון הישן", "street": "פנקס", "house_number": "56", "floor": 3, "enter": ""},
+      "images":[
+        {"id": 1, "path": "http://thumb101.shutterstock.com/display_pic_with_logo/58408/191081627/stock-photo-modern-apartment-buildings-in-new-westminster-british-columbia-canada-191081627.jpg", "active": true},
+        {"id": 2, "path": "http://thumb1.shutterstock.com/display_pic_with_logo/348181/189023420/stock-photo-house-building-and-city-construction-concept-evening-outdoor-urban-view-of-modern-real-estate-homes-189023420.jpg", "active": false},
+        {"id": 3, "path": "http://thumb7.shutterstock.com/display_pic_with_logo/52488/126936059/stock-photo-modern-apartment-balcony-at-sunset-126936059.jpg", "active": false}
+      ],
+      "publish": "",
+      "enter_date": "1 ביוני 2015",
       "specs": {"parking": true, "pets": true, "handicap": false, "elevator": false, "conditioner": true, "parquet": true, "balcony": true},
       "schedule": [
         {"date": "", "start_time": "", "end_time": ""},
@@ -44,5 +176,6 @@
       ]
 
     }
+
   ]
 }
