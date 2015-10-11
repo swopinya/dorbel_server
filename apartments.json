@@ -32,7 +32,7 @@
                     "active": false
                 }
             ],
-            "publish": "",
+            "publish": 25,
             "enter_date": "1 ביוני 2015",
             "specs": {
                 "parking": true,
@@ -82,7 +82,7 @@
                     "active": false
                 }
             ],
-            "publish": "",
+            "publish": 38,
             "enter_date": "1 ביוני 2015",
             "specs": {
                 "parking": true,
@@ -132,7 +132,7 @@
                     "active": true
                 }
             ],
-            "publish": "",
+            "publish": 15,
             "enter_date": "1 ביוני 2015",
             "specs": {
                 "parking": true,
@@ -182,7 +182,7 @@
                     "active": false
                 }
             ],
-            "publish": "",
+            "publish": 3,
             "enter_date": "1 ביוני 2015",
             "specs": {
                 "parking": true,
@@ -200,21 +200,6 @@
             ]
 
         },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         {
             "id": 5,
             "title": "דירה חדשה שזה עתה התפנתה",
@@ -247,7 +232,7 @@
                     "active": false
                 }
             ],
-            "publish": "",
+            "publish": 24,
             "enter_date": "1 ביוני 2015",
             "specs": {
                 "parking": true,
@@ -297,7 +282,7 @@
                     "active": false
                 }
             ],
-            "publish": "",
+            "publish": 56,
             "enter_date": "1 ביוני 2015",
             "specs": {
                 "parking": true,
@@ -347,7 +332,7 @@
                     "active": true
                 }
             ],
-            "publish": "",
+            "publish": 102,
             "enter_date": "1 ביוני 2015",
             "specs": {
                 "parking": true,
@@ -397,7 +382,7 @@
                     "active": false
                 }
             ],
-            "publish": "",
+            "publish": 235,
             "enter_date": "1 ביוני 2015",
             "specs": {
                 "parking": true,
@@ -415,12 +400,5 @@
             ]
 
         }
-
-
-
-
-
-
-
     ]
 }

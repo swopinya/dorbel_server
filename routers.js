@@ -23,6 +23,7 @@ routers.get('/apartments-list', function(req, res){
         }
         delete apartments[i].images;
         delete apartments[i].schedule;
+        delete apartments[i].specs;
     }
     res.send(apartments);
 });
