@@ -5,6 +5,11 @@ var express = require('express');
 var routers = express.Router();
 var fs = require('fs');
 
+routers.get('/', function(req, res){
+    res.render('index', {
+    });
+});
+
 routers.get('/apartment', function(req, res){
     var apartments = require('./apartments.json');
     res.send(JSON.stringify(apartments));
