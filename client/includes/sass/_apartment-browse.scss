@@ -1,0 +1,195 @@
+.filter-cont{
+	box-sizing: border-box;
+	background-color: #EDEDED;
+	padding: 40px 10px 40px 10px;
+	box-shadow: 0 3px 4px -1px rgba(#bdbdbd,1);
+}
+
+.sort-cont {
+	box-sizing: border-box;
+	padding: 60px 30px 0 10px;
+	li{
+		display: inline;
+		padding-right: 5px;
+		padding-left: 5px;
+		font-size: 12px;
+		&.pointer{
+			cursor: pointer;
+		}
+		&:nth-child(even){
+			color: rgba(#333, 0.3);
+		}
+		&:nth-last-child(1){
+			font-size: 11px;
+			color: rgba(#333, 0.5);
+		}
+	}
+}
+
+.content-cont{
+	width: 100%;
+}
+
+.col{
+	float: right;
+	width: 50%;
+	&:nth-child(1) {
+		overflow: scroll;
+		direction: ltr;
+		overflow-x: hidden;
+		-ms-overflow-x: hidden;
+		margin-top: 18px;
+		height: 665px;
+		padding: 0 15px 20px 10px;
+	}
+	&:nth-child(2) {
+		padding: 0 10px 20px 20px;
+	}
+}
+
+.list-item-cont{
+	width: 100%;
+	margin-top: 20px;
+	box-shadow: 0 1px 5px -1px rgba(#333, 0.8);
+	&:nth-child(1) {
+		margin-top: 2px !important;
+	}
+}
+
+.img-wrap{
+	position: relative;
+	float: right;
+	width: 40%;
+	height: 150px;
+	.apartment-thumbnail{
+		width: 100%;
+		height: 100%;
+	}
+	p{
+		position: absolute;
+		top: 0;
+		left: 0;
+		font-size: 12px;
+		padding: 5px;
+		color: #F6F6F4;
+	}
+}
+
+.list-left-cont{
+	float: right;
+	width: 60%;
+	height: 150px;
+}
+
+.list-col{
+	float: right;
+	height: 150px;
+	&:nth-child(1){
+		position: relative;
+		width: 80%;
+		padding: 10px 20px 10px 20px;
+	}
+	&:nth-child(2){
+		width: 20%;
+	}
+	.title{
+		font-size: 14px;
+	}
+	.address{
+		font-size: 12px;
+		font-weight: bold;
+		color: rgba(#333, 0.6);
+	}
+	.details-cont{
+		width: 100%;
+		.det-col{
+			float: right;
+			width: 30%;
+		}
+		p{
+			font-size: 12px;
+			font-weight: bold;
+			text-align: center;
+			margin: 0 !important;
+		}
+	}
+	.enter-date{
+		position: absolute;
+		bottom: 0;
+		font-size: 10px;
+		font-weight: bold;
+		color: rgba(#333, 0.6);
+	}
+}
+
+.clear{
+	clear: both;
+}
+
+.angular-google-map-container {
+	height: 400px;
+	margin-top: 20px;
+}
+
+.marker-labels{
+	display: block;
+	height: 50px;
+	width: 50px;
+	background-color: brown;
+}
+
+.map-tooltip{
+	display: none;
+	width: 150px;
+	height: 70px;
+	background-color: #fff;
+	box-shadow: 0 0 2px 1px rgba(#333,0.6);
+	.image-cont{
+		width: 70px;
+		height: 70px;
+		float: right;
+	}
+	.text-cont{
+		width: 80px;
+		height: 70px;
+		float: right;
+		padding: 5px;
+	}
+	p{
+		font-size: 12px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

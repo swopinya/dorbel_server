@@ -1,0 +1,69 @@
+<section class="filter-cont"></section>
+<section class="sort-cont">
+    <ul>
+        <li>מיין לפי:</li>
+        <li> | </li>
+        <li class="pointer" ng-click="order('publish', 'DATE')">תאריך פרסום {{ date_sort_mark }}</li>
+        <li> | </li>
+        <li class="pointer" ng-click="order('rooms', 'ROOMS')">מס' חדרים {{ rooms_sort_mark }}</li>
+        <li> | </li>
+        <li class="pointer" ng-click="order('sm', 'SQUARE_METERS')">מ"ר {{ sm_sort_mark }}</li>
+        <li> | </li>
+        <li class="pointer" ng-click="order('price', 'PRICE')">מחיר {{ price_sort_mark }}</li>
+        <li> | </li>{{ enter_date_mark }}
+        <li class="pointer" ng-click="order('enter_date.year', 'ENTER_DATE')">תאריך כניסה {{ enter_sort_mark }}</li>
+        <li> | </li>
+        <li>נמצאו {{ count }} דירות</li>
+    </ul>
+</section>
+<section class="content-cont">
+    <section class="col">
+        <!--<section class="list-item-cont" ng-repeat="apartment in apartments">-->
+            <!--<img src="{{ apartment.image }}" />-->
+        <!--</section>-->
+        <section class="container list-item-cont" check-last ng-repeat="apartment in apartments">
+            <section class="row">
+                <section class="img-wrap"><img class="apartment-thumbnail" src="{{ apartment.image }}"/>
+                    <p>{{ apartment.published_str }}</p>
+                </section>
+                <section class="list-left-cont">
+                    <section class="list-col">
+                        <p class="title">{{ apartment.title }}</p>
+                        <p class="address">רחוב {{ apartment.address.street }}, {{apartment.address.city}} | {{apartment.address.area}}</p>
+                        <section class="details-cont">
+                            <section class="det-col"><p>{{ apartment.rooms }}</p><p>חדרים</p></section>
+                            <section class="det-col"><p>{{ apartment.sm }}</p><p>מ"ר</p></section>
+                            <section class="det-col"><p>{{ apartment.price }} &#8362;</p><p>לחודש</p></section>
+                            <div class="clear"></div>
+                        </section>
+                        <p class="enter-date">כניסה {{ apartment.enter_date_str }}</p>
+                    </section>
+                    <section class="list-col"></section>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <section class="col" ng-controller="MapCtrl">
+        <ui-gmap-google-map
+                center='map.center'
+                zoom='map.zoom'
+                bounds='map.bounds'
+                events='map.events'>
+            <!--<ui-gmap-marker-->
+                    <!--idKey='0'-->
+                    <!--coords='marker.coords'-->
+                    <!--click='marker.click'-->
+                    <!--options='marker.options' bounds='marker.bounds'>-->
+            <!--</ui-gmap-marker>-->
+            <ui-gmap-markers models="markers" coords="'self'">
+            </ui-gmap-markers>
+        </ui-gmap-google-map>
+
+        <section class="map-tooltip transition">
+            <section class="image-cont" ng-style="{'background': 'url('+image_src+') no-repeat', 'background-size': 'cover', 'background-position': 'center center'}"></section>
+            <section class="text-cont"><p>{{ address }}</p></section>
+        </section>
+    </section>
+
+</section>

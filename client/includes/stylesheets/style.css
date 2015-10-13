@@ -1,0 +1,208 @@
+/* line 1, ../sass/_general.scss */
+* {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+  font-family: Arial;
+}
+
+/* line 8, ../sass/_general.scss */
+.page-header {
+  background-color: #2D3E50;
+  padding: 40px 10px 40px 10px !important;
+  margin: 0 !important;
+}
+
+/* line 1, ../sass/_apartment-browse.scss */
+.filter-cont {
+  box-sizing: border-box;
+  background-color: #EDEDED;
+  padding: 40px 10px 40px 10px;
+  box-shadow: 0 3px 4px -1px #bdbdbd;
+}
+
+/* line 8, ../sass/_apartment-browse.scss */
+.sort-cont {
+  box-sizing: border-box;
+  padding: 60px 30px 0 10px;
+}
+/* line 11, ../sass/_apartment-browse.scss */
+.sort-cont li {
+  display: inline;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 12px;
+}
+/* line 16, ../sass/_apartment-browse.scss */
+.sort-cont li.pointer {
+  cursor: pointer;
+}
+/* line 19, ../sass/_apartment-browse.scss */
+.sort-cont li:nth-child(even) {
+  color: rgba(51, 51, 51, 0.3);
+}
+/* line 22, ../sass/_apartment-browse.scss */
+.sort-cont li:nth-last-child(1) {
+  font-size: 11px;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+/* line 29, ../sass/_apartment-browse.scss */
+.content-cont {
+  width: 100%;
+}
+
+/* line 33, ../sass/_apartment-browse.scss */
+.col {
+  float: right;
+  width: 50%;
+}
+/* line 36, ../sass/_apartment-browse.scss */
+.col:nth-child(1) {
+  overflow: scroll;
+  direction: ltr;
+  overflow-x: hidden;
+  -ms-overflow-x: hidden;
+  margin-top: 18px;
+  height: 665px;
+  padding: 0 15px 20px 10px;
+}
+/* line 45, ../sass/_apartment-browse.scss */
+.col:nth-child(2) {
+  padding: 0 10px 20px 20px;
+}
+
+/* line 50, ../sass/_apartment-browse.scss */
+.list-item-cont {
+  width: 100%;
+  margin-top: 20px;
+  box-shadow: 0 1px 5px -1px rgba(51, 51, 51, 0.8);
+}
+/* line 54, ../sass/_apartment-browse.scss */
+.list-item-cont:nth-child(1) {
+  margin-top: 2px !important;
+}
+
+/* line 59, ../sass/_apartment-browse.scss */
+.img-wrap {
+  position: relative;
+  float: right;
+  width: 40%;
+  height: 150px;
+}
+/* line 64, ../sass/_apartment-browse.scss */
+.img-wrap .apartment-thumbnail {
+  width: 100%;
+  height: 100%;
+}
+/* line 68, ../sass/_apartment-browse.scss */
+.img-wrap p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  padding: 5px;
+  color: #F6F6F4;
+}
+
+/* line 78, ../sass/_apartment-browse.scss */
+.list-left-cont {
+  float: right;
+  width: 60%;
+  height: 150px;
+}
+
+/* line 84, ../sass/_apartment-browse.scss */
+.list-col {
+  float: right;
+  height: 150px;
+}
+/* line 87, ../sass/_apartment-browse.scss */
+.list-col:nth-child(1) {
+  position: relative;
+  width: 80%;
+  padding: 10px 20px 10px 20px;
+}
+/* line 92, ../sass/_apartment-browse.scss */
+.list-col:nth-child(2) {
+  width: 20%;
+}
+/* line 95, ../sass/_apartment-browse.scss */
+.list-col .title {
+  font-size: 14px;
+}
+/* line 98, ../sass/_apartment-browse.scss */
+.list-col .address {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 0.6);
+}
+/* line 103, ../sass/_apartment-browse.scss */
+.list-col .details-cont {
+  width: 100%;
+}
+/* line 105, ../sass/_apartment-browse.scss */
+.list-col .details-cont .det-col {
+  float: right;
+  width: 30%;
+}
+/* line 109, ../sass/_apartment-browse.scss */
+.list-col .details-cont p {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 !important;
+}
+/* line 116, ../sass/_apartment-browse.scss */
+.list-col .enter-date {
+  position: absolute;
+  bottom: 0;
+  font-size: 10px;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 0.6);
+}
+
+/* line 125, ../sass/_apartment-browse.scss */
+.clear {
+  clear: both;
+}
+
+/* line 129, ../sass/_apartment-browse.scss */
+.angular-google-map-container {
+  height: 400px;
+  margin-top: 20px;
+}
+
+/* line 134, ../sass/_apartment-browse.scss */
+.marker-labels {
+  display: block;
+  height: 50px;
+  width: 50px;
+  background-color: brown;
+}
+
+/* line 141, ../sass/_apartment-browse.scss */
+.map-tooltip {
+  display: none;
+  width: 150px;
+  height: 70px;
+  background-color: #fff;
+  box-shadow: 0 0 2px 1px rgba(51, 51, 51, 0.6);
+}
+/* line 147, ../sass/_apartment-browse.scss */
+.map-tooltip .image-cont {
+  width: 70px;
+  height: 70px;
+  float: right;
+}
+/* line 152, ../sass/_apartment-browse.scss */
+.map-tooltip .text-cont {
+  width: 80px;
+  height: 70px;
+  float: right;
+  padding: 5px;
+}
+/* line 158, ../sass/_apartment-browse.scss */
+.map-tooltip p {
+  font-size: 12px;
+}

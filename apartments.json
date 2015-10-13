@@ -33,7 +33,11 @@
                 }
             ],
             "publish": 25,
-            "enter_date": "1 ביוני 2015",
+            "enter_date": {
+                "day": 5,
+                "month": 11,
+                "year": 2015
+            },
             "specs": {
                 "parking": true,
                 "pets": true,
@@ -83,7 +87,11 @@
                 }
             ],
             "publish": 38,
-            "enter_date": "1 ביוני 2015",
+            "enter_date": {
+                "day": 6,
+                "month": 4,
+                "year": 2016
+            },
             "specs": {
                 "parking": true,
                 "pets": true,
@@ -133,7 +141,11 @@
                 }
             ],
             "publish": 15,
-            "enter_date": "1 ביוני 2015",
+            "enter_date": {
+                "day": 27,
+                "month": 1,
+                "year": 2016
+            },
             "specs": {
                 "parking": true,
                 "pets": true,
@@ -183,7 +195,11 @@
                 }
             ],
             "publish": 3,
-            "enter_date": "1 ביוני 2015",
+            "enter_date": {
+                "day": 18,
+                "month": 1,
+                "year": 2016
+            },
             "specs": {
                 "parking": true,
                 "pets": true,
@@ -233,7 +249,11 @@
                 }
             ],
             "publish": 24,
-            "enter_date": "1 ביוני 2015",
+            "enter_date": {
+                "day": 23,
+                "month": 1,
+                "year": 2016
+            },
             "specs": {
                 "parking": true,
                 "pets": true,
@@ -283,7 +303,11 @@
                 }
             ],
             "publish": 56,
-            "enter_date": "1 ביוני 2015",
+            "enter_date": {
+                "day": 23,
+                "month": 3,
+                "year": 2016
+            },
             "specs": {
                 "parking": true,
                 "pets": true,
@@ -333,7 +357,11 @@
                 }
             ],
             "publish": 102,
-            "enter_date": "1 ביוני 2015",
+            "enter_date": {
+                "day": 15,
+                "month": 3,
+                "year": 2016
+            },
             "specs": {
                 "parking": true,
                 "pets": true,
@@ -383,7 +411,11 @@
                 }
             ],
             "publish": 235,
-            "enter_date": "1 ביוני 2015",
+            "enter_date": {
+                "day": 12,
+                "month": 2,
+                "year": 2016
+            },
             "specs": {
                 "parking": true,
                 "pets": true,
